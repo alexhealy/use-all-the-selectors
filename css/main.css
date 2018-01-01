@@ -1,16 +1,12 @@
-html {
+body {
   background-color: #fdf6e3;
 }
 
-header {
+header, footer {
   font-size: 1.5rem;
 }
 
-footer {
-  font-size: 1.5rem;
-}
-
-nav {
+nav ul {
   font-family: sans-serif;
 }
 
@@ -22,7 +18,7 @@ nav {
   background-color: #eee8d5;
 }
 
-#contents, #favs, #facts, #types {
+h2 {
   color: #93a1a1;
 }
 
@@ -34,11 +30,11 @@ p + strong {
   color: #fff;
 }
 
-header nav ul li mark {
+html header nav ul li mark {
   background-color: #719e07;
 }
 
-[rel="external"] {
+a[rel="external"] {
   background-color: #2694d8;
 }
 
