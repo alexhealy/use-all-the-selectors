@@ -30,7 +30,7 @@ p + strong {
   color: #fff;
 }
 
-html header nav ul li mark {
+header mark {
   background-color: #719e07;
 }
 
